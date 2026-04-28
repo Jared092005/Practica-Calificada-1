@@ -3,3 +3,64 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  height: 100vh;
+  padding: 0px 0px 0px 30px;
+  background-color: rgb(180, 229, 241);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.caja1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.titulo-principal {
+  font-family: sans-serif;
+}
+.eliseo {
+  width: 500px;
+}
+.caja2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.parrafo {
+  font-family: sans-serif;
+}
+
+.subtitulos {
+  font-family: sans-serif;
+}
+
+.lista {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.caja3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.enlace {
+  width: 500px;
+}
+.btn-fb {
+  width: 60%;
+  text-decoration: none;
+  height: 35px;
+  background-color: rgb(77, 130, 228);
+  color: white;
+  border-radius: 25px;
+}
+.btn-wsp {
+  width: 60%;
+  height: 35px;
+  border-radius: 25px;
+  background-color: rgb(101, 223, 101);
+  color: white;
+}

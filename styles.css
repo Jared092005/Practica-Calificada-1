@@ -44,13 +44,15 @@ body {
 .caja3 {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 10px;
 }
-.enlace {
-  width: 500px;
+.btn-redes {
+  width: 25%;
 }
+
 .btn-fb {
-  width: 60%;
+  width: 40%;
   text-decoration: none;
   height: 35px;
   background-color: rgb(77, 130, 228);
@@ -58,7 +60,7 @@ body {
   border-radius: 25px;
 }
 .btn-wsp {
-  width: 60%;
+  width: 40%;
   height: 35px;
   border-radius: 25px;
   background-color: rgb(101, 223, 101);

@@ -58,6 +58,7 @@ body {
   background-color: rgb(77, 130, 228);
   color: white;
   border-radius: 25px;
+  cursor: pointer;
 }
 .btn-wsp {
   width: 40%;
@@ -65,4 +66,5 @@ body {
   border-radius: 25px;
   background-color: rgb(101, 223, 101);
   color: white;
+  cursor: pointer;
 }
